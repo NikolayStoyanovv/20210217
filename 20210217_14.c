@@ -1,3 +1,6 @@
+/*Напишете програма, която да проверява дали 2 стринга (масива) са
+анаграми и имат всичките букви на другата дума. Използвайте функции.
+Примери за анаграми: реклама: карамел; босилек: обелиск.*/
 #include <stdio.h>
  
 int find_anagram(char [], char []);
@@ -8,9 +11,9 @@ int main()
     int flag;
  
     printf("Enter the string\n");
-     fgets(array1, 100, stdin); 
+    fgets(array1, 100, stdin); 
     printf("Enter another string\n");
-     fgets(array2, 100, stdin); 
+    fgets(array2, 100, stdin); 
     flag = find_anagram(array1, array2);
     if (flag == 1)
         printf("%s and %s:\n are anagrams.", array1, array2);

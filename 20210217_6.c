@@ -1,6 +1,8 @@
+/*Пребройте буквите ‚а‘ в стринг (може да е число и масив).
+Пример: "This is a string to test my idea for search in a char and ....";*/
 #include <stdio.h>
 void search(){
- char str[1000], ch;
+    char str[1000], ch;
     int count = 0;
 
     printf("Enter a string: ");

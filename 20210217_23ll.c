@@ -1,3 +1,4 @@
+/*Library to exercise 23*/
 #include <stdio.h>
 #include"20210217_23.h" 
   

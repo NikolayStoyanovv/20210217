@@ -1,3 +1,5 @@
+/*Задача 2. Добавете към горния код функции за умножение
+и деление.*/
 #include<stdio.h>
 #include<stdlib.h>
 int fnPlus(int nA,int nB){return (nA+nB);}
